@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+
+    <string name="name">Name</string>
+
+    <string name="quantities">Quantities</string>
+
+    <string name="price">Price</string>
+
+    <string name="save">Save</string>
+
+    <string name="button_sale">Sale</string>
+
+    <string name="button_oder_product">Oder</string>
+
+    <string name="button_delete_product">Delete</string>
+
+    <string name="insert_dummy_product">Insert_dummy_product</string>
+
+    <string name="delete_all_products_failed">Delete all products</string>
+
+    <string name="delete_all_products">delete_all_products</string>
+
+    <string name="empty_view_text">Inventory is empty, please click overflow icon to add a product</string>
+
+    <string name="title_add_new_product">Add a new Product</string>
+
+    <string name="add_new_product_succeed">Add new product succeed</string>
+
+    <string name="add_new_product_failed">Add new product failed, please try again</string>
+</resources>

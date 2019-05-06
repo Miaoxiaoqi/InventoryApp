@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:id="@+id/add_minus_layout">
+        <ImageButton
+            android:id="@+id/minus_icon"
+            android:layout_width="@dimen/add_icon_length"
+            android:layout_height="@dimen/add_icon_length"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_remove_black_24dp"
+            android:background="@color/write"/>
+        <EditText
+            android:id="@+id/detail_quantities_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+        <ImageButton
+            android:id="@+id/add_icon"
+            android:layout_width="@dimen/add_icon_length"
+            android:layout_height="@dimen/add_icon_length"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add_black_24dp"
+            android:background="@color/write"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/button_margin_bottom">
+
+        <Button
+            android:id="@+id/oder_button"
+            android:layout_width="@dimen/button_width_detail_view"
+            android:layout_height="@dimen/button_height_detail_view"
+            android:text="@string/button_oder_product"
+            android:textSize="@dimen/button_text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="@dimen/button_margin_between"/>
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="@dimen/button_width_detail_view"
+            android:layout_height="@dimen/button_height_detail_view"
+            android:text="@string/button_delete_product"
+            android:textSize="@dimen/button_text_size"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
